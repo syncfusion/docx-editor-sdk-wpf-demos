@@ -1,0 +1,71 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>syncfusion.richtextboxdemos.wpfapplication</AssemblyName>
+    <RootNamespace>syncfusion.richtextboxdemos.wpf</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net9.0-windows' ">
+    <RuntimeHostConfigurationOption Include="Switch.System.Windows.Controls.DisableDynamicResourceOptimization" Value="true" />
+  </ItemGroup>
+
+  <ItemGroup Condition=" '$(TargetFrameworkIdentifier)' == '.NETFRAMEWORK' ">
+    <Reference Include="PresentationFramework.Aero" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\common\syncfusion.demoscommon.wpf_lib.csproj">
+      <Name>syncfusion.demoscommon.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\showcase\documenteditor\syncfusion.documenteditor.wpf_lib.csproj">
+      <Name>syncfusion.documenteditor.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="syncfusion.richtextboxdemos.wpf_lib.csproj">
+      <Name>syncfusion.richtextboxdemos.wpf_lib</Name>
+    </ProjectReference>
+    <None Remove="Assets\richtextbox\*" />
+    <Page Remove="Behaviors\*" />
+    <Compile Remove="Behaviors\*" />
+    <Compile Remove="Helper\*" />
+    <Compile Remove="Model\*" />
+    <EmbeddedResource Remove="Resources\*" />
+    <Compile Remove="ViewModel\*" />
+    <Page Remove="Views\*" />
+    <Compile Remove="Views\*" />
+    <Compile Remove="RichTextBoxDemosViewModel.cs" />
+
+    <Reference Include="Syncfusion.Compression.Base">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\$(TargetFramework)\Syncfusion.Compression.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.DocIO.Base">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\$(TargetFramework)\Syncfusion.DocIO.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfRichTextBoxAdv.WPF">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\$(TargetFramework)\Syncfusion.SfRichTextBoxAdv.WPF.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfRichTextRibbon.WPF">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\$(TargetFramework)\Syncfusion.SfRichTextRibbon.WPF.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Tools.WPF">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\$(TargetFramework)\Syncfusion.Tools.WPF.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <Import Project="..\common\demos.common.props">
+  </Import>
+  <Import Project="..\targets\MultiTargeting.targets" />
+</Project>

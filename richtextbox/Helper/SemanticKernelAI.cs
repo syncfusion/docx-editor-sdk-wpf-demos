@@ -1,0 +1,48 @@
+﻿using System.Threading.Tasks;
+using syncfusion.demoscommon.wpf;
+using Microsoft.Extensions.AI;
+using Azure.AI.OpenAI;
+
+namespace syncfusion.richtextboxdemos.wpf.Helper
+{
+    internal class SemanticKernelAI
+    {
+        #region Constructor
+        /// <summary>
+        /// Initializes a new instance of the <see cref="SemanticKernelAI"/> class.
+        /// </summary>
+        /// <param name="key">Key for the semantic kernal API</param>
+        public SemanticKernelAI(string apikey, string endPoint, string modelName)
+        {
+            new AzureOpenAIClient(new System.Uri(endPoint), new System.ClientModel.ApiKeyCredential(apikey)).AsChatClient(modelName);
+        }
+        #endregion
+
+        #region Implementation
+        /// <summary>
+        /// Method to get the answer from GPT using the semantic kernel
+        /// </summary>
+        /// <param name="systemPrompt">Prompt for the system message</param>
+        /// <param name="userText">Input text for the user message</param>
+        /// <returns>Returns the sensitive informations as a list</returns>
+        public async Task<string> GetAnswerFromGPT(string systemPrompt)
+        {
+            try
+            {
+                if (AISettings.ClientAI != null)
+                {
+                    //// Send the chat completion request to the OpenAI API and await the response.
+                    var response = await AISettings.ClientAI.CompleteAsync(systemPrompt);
+                    return response.ToString();
+                }
+            }
+            catch
+            {
+                // Return an empty string if an exception occurs
+                return " ";
+            }
+            return " ";
+        }
+        #endregion
+    }
+}
