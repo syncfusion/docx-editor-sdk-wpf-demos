@@ -2,7 +2,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.226.21692
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "syncfusion.samplebrowser.wpf_wordeditorsdk", "syncfusion.samplebrowser.wpf_wordeditorsdk.csproj", "{6B6C03B8-9CE0-471E-A537-E023D971039D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "syncfusion.samplebrowser.wpf_docxeditorsdk", "syncfusion.samplebrowser.wpf_docxeditorsdk.csproj", "{6B6C03B8-9CE0-471E-A537-E023D971039D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "syncfusion.demoscommon.wpf_lib", "..\common\syncfusion.demoscommon.wpf_lib.csproj", "{9EF55CDB-ED67-4A06-BC2A-1F811F791191}"
 EndProject

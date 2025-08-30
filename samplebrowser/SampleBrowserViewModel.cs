@@ -23,7 +23,7 @@ namespace syncfusion.samplebrowser.wpf
             var productdemos = new List<ProductDemo>();
             this.ShowcaseDemos = new List<DemoInfo>();
 
-#if !FILEFORMAT && !DocumentSDK && !EXCELSDK && !PDFViewerSDK && !WORDEDITORSDK
+#if !FILEFORMAT && !DocumentSDK && !EXCELSDK && !PDFViewerSDK && !DOCXEDITORSDK
             //GRIDS
             productdemos.Add(new datagriddemos.wpf.DataGridProductDemos());
             productdemos.Add(new treegriddemos.wpf.TreeGridProductDemos());
@@ -170,7 +170,7 @@ namespace syncfusion.samplebrowser.wpf
 #elif PDFViewerSDK
             productdemos.Add(new syncfusion.pdfviewerdemos.wpf.PdfViewerProductDemos());
             this.ShowcaseDemos.Add(new DemoInfo() { DemoViewType = typeof(syncfusion.succinctlyseries.wpf.SuccinctlySeriesDemo), SampleName = "Succinctly Series", ImagePath = "/syncfusion.succinctlyseries.wpf;component/Assets/Succinctly Series/succinctlyseries.png" });
-#elif WORDEDITORSDK
+#elif DOCXEDITORSDK
             productdemos.Add(new syncfusion.richtextboxdemos.wpf.RichTextBoxProductDemos());
             this.ShowcaseDemos.Add(new DemoInfo() { DemoViewType = typeof(syncfusion.documenteditor.wpf.DocumentEditorDemo), SampleName = "DocumentEditor", ImagePath = "/syncfusion.documenteditor.wpf;component/Assets/documenteditor/DocumentEditor.png" });
 #else

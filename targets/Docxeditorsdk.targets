@@ -2,6 +2,6 @@
   <Import Project="MultiTargeting.targets" />
 
   <PropertyGroup>
-    <DefineConstants>WORDEDITORSDK</DefineConstants>
+    <DefineConstants>DOCXEDITORSDK</DefineConstants>
   </PropertyGroup>
 </Project>

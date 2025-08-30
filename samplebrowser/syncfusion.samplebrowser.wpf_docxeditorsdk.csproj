@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <AssemblyName>syncfusion.samplebrowser.wpf.wordeditorsdk</AssemblyName>
+    <AssemblyName>syncfusion.samplebrowser.wpf.docxeditorsdk</AssemblyName>
     <RootNamespace>syncfusion.samplebrowser.wpf</RootNamespace>
   </PropertyGroup>
 
@@ -26,8 +26,6 @@
     <None Include="App.config" />
     <None Remove="wpf-splash-screen.png" />
     <Resource Include="wpf-splash-screen.png" />
-    <None Remove="wpf-wordeditor-sdk-splash-screen.png" />
-    <Resource Include="wpf-wordeditor-sdk-splash-screen.png" />
     <None Remove="App.ico" />
     <Resource Include="App.ico" />
     <Compile Remove="AutomationMail.cs" />
@@ -55,5 +53,5 @@
   </PropertyGroup>
   <Import Project="..\common\demos.common.props">
   </Import>
-  <Import Project="..\targets\Wordeditorsdk.targets" />
+  <Import Project="..\targets\docxeditorsdk.targets" />
 </Project>
