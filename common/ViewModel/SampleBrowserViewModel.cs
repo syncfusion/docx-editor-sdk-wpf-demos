@@ -1686,7 +1686,7 @@ namespace syncfusion.demoscommon.wpf
 				System.Diagnostics.Process.Start(new ProcessStartInfo("https://help.syncfusion.com/document-processing/excel/spreadsheet/overview") { UseShellExecute = true });
 #elif PDFViewerSDK
                 System.Diagnostics.Process.Start(new ProcessStartInfo("https://help.syncfusion.com/document-processing/pdf/pdf-viewer/overview") { UseShellExecute = true });
-#elif WORDEDITORSDK
+#elif DOCXEDITORSDK
                 System.Diagnostics.Process.Start(new ProcessStartInfo("https://help.syncfusion.com/document-processing/word/word-processor/wpf/overview") { UseShellExecute = true });
 #else
                 System.Diagnostics.Process.Start(new ProcessStartInfo("https://help.syncfusion.com/wpf/welcome-to-syncfusion-essential-wpf") { UseShellExecute = true });

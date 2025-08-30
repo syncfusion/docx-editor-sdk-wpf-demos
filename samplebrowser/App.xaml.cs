@@ -36,9 +36,9 @@ namespace syncfusion.samplebrowser.wpf
             syncfusion.demoscommon.wpf.DemoBrowserViewModel.HeaderTitleText = "Syncfusion® Gallery for Spreadsheet WPF";
 #elif DocumentSDK
             syncfusion.demoscommon.wpf.DemoBrowserViewModel.HeaderTitleText = "Syncfusion® Gallery for Document SDK";
-#elif WORDEDITORSDK
+#elif DOCXEDITORSDK
             syncfusion.demoscommon.wpf.DemoBrowserViewModel.IsIOSDKSample = true;
-            syncfusion.demoscommon.wpf.DemoBrowserViewModel.HeaderTitleText = "Syncfusion® Gallery for Word Editor WPF";
+            syncfusion.demoscommon.wpf.DemoBrowserViewModel.HeaderTitleText = "Syncfusion® Gallery for Docx Editor WPF";
 #elif PDFViewerSDK
             syncfusion.demoscommon.wpf.DemoBrowserViewModel.IsIOSDKSample = true;
             syncfusion.demoscommon.wpf.DemoBrowserViewModel.HeaderTitleText = "Syncfusion® Gallery for PDF Viewer WPF";
@@ -57,8 +57,8 @@ namespace syncfusion.samplebrowser.wpf
             SplashScreen splashScreen = new SplashScreen(ResourceAssembly, "wpf-documentsdk-splash-screen.png");
 #elif EXCELSDK
             SplashScreen splashScreen = new SplashScreen(ResourceAssembly, "wpf-excel-sdk-splash-screen.png");
-#elif WORDEDITORSDK
-            SplashScreen splashScreen = new SplashScreen(ResourceAssembly, "wpf-wordeditor-sdk-splash-screen.png");
+#elif DOCXEDITORSDK
+            SplashScreen splashScreen = new SplashScreen(ResourceAssembly, "wpf-splash-screen.png");
 #elif PDFViewerSDK
             SplashScreen splashScreen = new SplashScreen(ResourceAssembly, "PDFViewerSDK-splash-screen.png");
 #else
@@ -73,7 +73,7 @@ namespace syncfusion.samplebrowser.wpf
             UpdateStoreAppDirectory();
 #endif
             dataContext = new SamplesViewModel();
-#if !STORE && !EXCELSDK && !PDFViewerSDK && !WORDEDITORSDK
+#if !STORE && !EXCELSDK && !PDFViewerSDK && !DOCXEDITORSDK
             Window windowToOpen = null;
 #endif
 #if STORE
@@ -98,9 +98,9 @@ namespace syncfusion.samplebrowser.wpf
                 ErrorLogging.LogError("Product ShowCase\\" + demoID + "\\" + exception.Message + "\n" + exception.StackTrace + "\n" + exception.Source);
             }
 #endif
-#if EXCELSDK || PDFViewerSDK || WORDEDITORSDK
+#if EXCELSDK || PDFViewerSDK || DOCXEDITORSDK
             dataContext.SelectedProduct = dataContext.ProductDemos.FirstOrDefault();
-#elif !STORE && !EXCELSDK && !PDFViewerSDK && !WORDEDITORSDK
+#elif !STORE && !EXCELSDK && !PDFViewerSDK && !DOCXEDITORSDK
             windowToOpen = new MainWindow(dataContext);
             ShowWindow(windowToOpen);
 #endif

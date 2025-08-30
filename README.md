@@ -1,1 +1,1 @@
-# word-editor-sdk-wpf-demos
+# docx-editor-sdk-wpf-demos
