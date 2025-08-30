@@ -38,7 +38,7 @@ namespace syncfusion.samplebrowser.wpf
             syncfusion.demoscommon.wpf.DemoBrowserViewModel.HeaderTitleText = "Syncfusion® Gallery for Document SDK";
 #elif DOCXEDITORSDK
             syncfusion.demoscommon.wpf.DemoBrowserViewModel.IsIOSDKSample = true;
-            syncfusion.demoscommon.wpf.DemoBrowserViewModel.HeaderTitleText = "Syncfusion® Gallery for Docx Editor WPF";
+            syncfusion.demoscommon.wpf.DemoBrowserViewModel.HeaderTitleText = "Syncfusion® Gallery for DOCX Editor WPF";
 #elif PDFViewerSDK
             syncfusion.demoscommon.wpf.DemoBrowserViewModel.IsIOSDKSample = true;
             syncfusion.demoscommon.wpf.DemoBrowserViewModel.HeaderTitleText = "Syncfusion® Gallery for PDF Viewer WPF";
