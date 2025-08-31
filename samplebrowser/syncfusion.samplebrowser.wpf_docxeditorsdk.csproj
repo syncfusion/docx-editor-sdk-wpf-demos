@@ -53,5 +53,5 @@
   </PropertyGroup>
   <Import Project="..\common\demos.common.props">
   </Import>
-  <Import Project="..\targets\docxeditorsdk.targets" />
+  <Import Project="..\targets\Docxeditorsdk.targets" />
 </Project>
