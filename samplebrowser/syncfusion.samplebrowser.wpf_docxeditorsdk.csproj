@@ -26,6 +26,8 @@
     <None Include="App.config" />
     <None Remove="wpf-splash-screen.png" />
     <Resource Include="wpf-splash-screen.png" />
+	<None Remove="wpf-docxeditor-sdk-splash-screen.png" />
+    <Resource Include="wpf-docxeditor-sdk-splash-screen.png" />
     <None Remove="App.ico" />
     <Resource Include="App.ico" />
     <Compile Remove="AutomationMail.cs" />
