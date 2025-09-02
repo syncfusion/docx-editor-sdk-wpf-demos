@@ -58,7 +58,7 @@ namespace syncfusion.samplebrowser.wpf
 #elif EXCELSDK
             SplashScreen splashScreen = new SplashScreen(ResourceAssembly, "wpf-excel-sdk-splash-screen.png");
 #elif DOCXEDITORSDK
-            SplashScreen splashScreen = new SplashScreen(ResourceAssembly, "wpf-splash-screen.png");
+            SplashScreen splashScreen = new SplashScreen(ResourceAssembly, "wpf-docxeditor-sdk-splash-screen.png");
 #elif PDFViewerSDK
             SplashScreen splashScreen = new SplashScreen(ResourceAssembly, "PDFViewerSDK-splash-screen.png");
 #else
