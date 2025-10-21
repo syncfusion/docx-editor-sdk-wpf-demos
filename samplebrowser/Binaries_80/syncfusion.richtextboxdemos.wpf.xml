@@ -1,0 +1,1500 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>syncfusion.richtextboxdemos.wpf</name>
+    </assembly>
+    <members>
+        <member name="T:syncfusion.richtextboxdemos.wpf.ForumPostControl">
+            <summary>
+            ForumPostControl
+            </summary>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.ForumPostControl.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:syncfusion.richtextboxdemos.wpf.ForumPostControl"/> class.
+            </summary>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.ForumPostControl.richTextBoxAdv_RequestNavigate(System.Object,Syncfusion.Windows.Controls.RichTextBoxAdv.RequestNavigateEventArgs)">
+            <summary>
+            Handles the request navigate event of the richTextBoxAdv control.
+            </summary>
+            <param name="obj">The source of the event.</param>
+            <param name="args">The <see cref="T:Syncfusion.Windows.Controls.RichTextBoxAdv.RequestNavigateEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.ForumPostControl.LaunchUri(System.Uri)">
+            <summary>
+            Launches the URI.
+            </summary>
+            <param name="uri">The URI.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.ForumPostControl.Dispose">
+            <summary>
+            Disposes the resources of ForumPostControl.
+            </summary>
+        </member>
+        <member name="F:syncfusion.richtextboxdemos.wpf.ForumPostControl.imgPostedBy">
+            <summary>
+            imgPostedBy Name Field
+            </summary>
+        </member>
+        <member name="F:syncfusion.richtextboxdemos.wpf.ForumPostControl.updatedOnTextBlock">
+            <summary>
+            updatedOnTextBlock Name Field
+            </summary>
+        </member>
+        <member name="F:syncfusion.richtextboxdemos.wpf.ForumPostControl.richTextBoxAdv">
+            <summary>
+            richTextBoxAdv Name Field
+            </summary>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.ForumPostControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.richtextboxdemos.wpf.ForumReplyControl">
+            <summary>
+            ForumReplyControl
+            </summary>
+        </member>
+        <member name="P:syncfusion.richtextboxdemos.wpf.ForumReplyControl.ParentWindow">
+            <summary>
+            Gets the parent window.
+            </summary>
+            <value>
+            The parent window.
+            </value>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.ForumReplyControl.#ctor(System.Windows.Window)">
+            <summary>
+            Initializes a new instance of the <see cref="T:syncfusion.richtextboxdemos.wpf.ForumReplyControl"/> class.
+            </summary>
+            <param name="parentWindow">The parent window.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.ForumReplyControl.richTextBoxAdv_RequestNavigate(System.Object,Syncfusion.Windows.Controls.RichTextBoxAdv.RequestNavigateEventArgs)">
+            <summary>
+            Handles the request navigate event of the richTextBoxAdv control.
+            </summary>
+            <param name="obj">The source of the event.</param>
+            <param name="args">The <see cref="T:Syncfusion.Windows.Controls.RichTextBoxAdv.RequestNavigateEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.ForumReplyControl.LaunchUri(System.Uri)">
+            <summary>
+            Launches the URI.
+            </summary>
+            <param name="uri">The URI.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.ForumReplyControl.ForumReplyControl_Loaded(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the loaded event of the ForumReplyControl.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.ForumReplyControl.SubmitButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the Click event of the btnSubmit control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.ForumReplyControl.CancelButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the Click event of the btnCancel control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.ForumReplyControl.ClearContent">
+            <summary>
+            Clears the content.
+            </summary>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.ForumReplyControl.Dispose">
+            <summary>
+            Disposes the resources of ForumReplyControl.
+            </summary>
+        </member>
+        <member name="F:syncfusion.richtextboxdemos.wpf.ForumReplyControl.richTextBoxAdv">
+            <summary>
+            richTextBoxAdv Name Field
+            </summary>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.ForumReplyControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="F:syncfusion.richtextboxdemos.wpf.DocumentManager.documentText">
+            <summary>
+            To hold the text of the document loaded for summarization process.
+            </summary>
+        </member>
+        <member name="E:syncfusion.richtextboxdemos.wpf.DocumentManager.DocumentTextChanged">
+            <summary>
+            Occurs when the document text is changed.
+            </summary>
+        </member>
+        <member name="P:syncfusion.richtextboxdemos.wpf.DocumentManager.DocumentText">
+            <summary>
+            Gets or sets the text of the document loaded.
+            </summary>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.DocumentManager.OnDocumentTextChanged">
+            <summary>
+            Raises the DocumentTextChanged event when the document text is changed.
+            </summary>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.DocumentManager.LoadText(System.String)">
+            <summary>
+            Loads and holds loaded document text for summarization.
+            </summary>
+            <param name="text">The text of the loaded document.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.DocumentManager.Dispose">
+            <summary>
+            Releases resources by clearing the document text and unsubscribing events.
+            </summary>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.Helper.SemanticKernelAI.#ctor(System.String,System.String,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:syncfusion.richtextboxdemos.wpf.Helper.SemanticKernelAI"/> class.
+            </summary>
+            <param name="key">Key for the semantic kernal API</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.Helper.SemanticKernelAI.GetAnswerFromGPT(System.String)">
+            <summary>
+            Method to get the answer from GPT using the semantic kernel
+            </summary>
+            <param name="systemPrompt">Prompt for the system message</param>
+            <param name="userText">Input text for the user message</param>
+            <returns>Returns the sensitive informations as a list</returns>
+        </member>
+        <member name="T:syncfusion.richtextboxdemos.wpf.SkinColor">
+            <summary>
+            Represents the skin color.
+            </summary>
+            <remarks></remarks>
+        </member>
+        <member name="T:syncfusion.richtextboxdemos.wpf.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:syncfusion.richtextboxdemos.wpf.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:syncfusion.richtextboxdemos.wpf.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:syncfusion.richtextboxdemos.wpf.RichTextBoxDemosViewModel.GetDemosDetails" -->
+        <member name="T:syncfusion.richtextboxdemos.wpf.RichTextBoxProductDemos">
+            <summary>
+            Class represents the product demos
+            </summary>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.RichTextBoxProductDemos.#ctor">
+            <summary>
+            Initializes the new instances of <see cref="T:syncfusion.richtextboxdemos.wpf.RichTextBoxProductDemos"/> class.
+            </summary>
+        </member>
+        <member name="T:syncfusion.richtextboxdemos.wpf.DocumentEditorViewModel">
+            <summary>
+            Represents the view model for DocumentEditorDemo.xaml
+            </summary>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.DocumentEditorViewModel.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:syncfusion.richtextboxdemos.wpf.DocumentEditorViewModel"/> class.
+            </summary>
+        </member>
+        <member name="P:syncfusion.richtextboxdemos.wpf.SmartSummarizerViewModel.Chats">
+            <summary>
+            Gets or sets the collection of chat objects.
+            </summary>
+        </member>
+        <member name="P:syncfusion.richtextboxdemos.wpf.SmartSummarizerViewModel.Suggestions">
+            <summary>
+            Gets or sets the collection of suggestions.
+            </summary>
+        </member>
+        <member name="P:syncfusion.richtextboxdemos.wpf.SmartSummarizerViewModel.CurrentUser">
+            <summary>
+            Gets or sets the current user.
+            </summary>
+        </member>
+        <member name="P:syncfusion.richtextboxdemos.wpf.SmartSummarizerViewModel.ShowTypingIndicator">
+            <summary>
+            Gets or sets the show typing indicator.
+            </summary>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.SmartSummarizerViewModel.InitializeAiAssist">
+            <summary>
+            Initializes the AI assistant by summarizing the provided document and generating 
+            suggestions based on the content. It updates the chat and suggestions accordingly.
+            </summary>
+            <param name="inputText">The input text to be summarized and analyzed.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.SmartSummarizerViewModel.HandleSuggestionSelected(System.String)">
+            <summary>
+            Handles the selection of a suggestion by the user. It sends the selected question 
+            to the AI assistant and retrieves a response based on the input text.
+            </summary>
+            <param name="question">The question selected by the user.</param>
+            <param name="inputText">The original input text to be used in generating the response.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.SmartSummarizerViewModel.GenerateSummary">
+            <summary>
+            Generates a short summary of the provided input text using an AI model.
+            </summary>
+            <param name="inputText">The text to be summarized.</param>
+            <returns>A generated summary.</returns>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.SmartSummarizerViewModel.GenerateSuggestions">
+            <summary>
+            Generates a list of 3 short diverse questions based on the provided input text.
+            </summary>
+            <param name="inputText">The text to analyze for generating questions.</param>
+            <returns>A collection of generated questions.</returns>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.SmartSummarizerViewModel.GenerateResponse(System.String)">
+            <summary>
+            Generates a response to a user question based on the provided input text.
+            </summary>
+            <param name="inputText">The context or document to refer to when answering the question.</param>
+            <param name="question">The user question that needs to be answered.</param>
+            <returns>The generated response.</returns>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.SmartSummarizerViewModel.AddMessageToChat(Syncfusion.UI.Xaml.Chat.Author,System.String)">
+            <summary>
+            Handles changes in the Chats collection, specifically when a new item is added.
+            </summary>
+            <param name="sender">The source of the event (Chats collection).</param>
+            <param name="e">Event arguments containing details about the change in the collection.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.SmartSummarizerViewModel.chat_ResponseToolBarItemClicked(Syncfusion.UI.Xaml.Chat.ResponseToolbarItemClickedEventArgs)">
+            <summary>
+            Handles the menu item clicked event asynchronously.
+            </summary>
+            <param name="e">Contains the event data for the menu item clicked event.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.SmartSummarizerViewModel.ResponseToolBarItemClicked(Syncfusion.UI.Xaml.Chat.ResponseToolbarItemClickedEventArgs,System.Collections.ObjectModel.ObservableCollection{System.Object})">
+            <summary>
+            Processes a menu item click event within a chat context, performing actions such as regenerating a response.
+            </summary>
+            <param name="e">The event data containing information about the selected menu item and chat item context.</param>
+            <param name="chats">A collection of chat items that can be manipulated based on the menu action performed.</param>
+            <returns>A task that represents the asynchronous operation.</returns>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.SmartSummarizerViewModel.ClearChatAndSuggestion">
+            <summary>
+            Clears both the chat and suggestions collections to reset the assistant state.
+            </summary>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.SmartSummarizerViewModel.RaisePropertyChanged(System.String)">
+            <summary>
+            Raises the PropertyChanged event to notify listeners that a property has changed.
+            </summary>
+            <param name="propName">The name of the property that has changed.</param>
+        </member>
+        <member name="F:syncfusion.richtextboxdemos.wpf.StickyNotesViewModel.SkinCommand">
+            <summary>
+            Represents the Skin Command.
+            </summary>
+            <remarks></remarks>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.StickyNotesViewModel.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="!:Notes_ViewModel"/> class.
+            </summary>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.StickyNotesViewModel.RichTextBoxAdv_RequestNavigate(System.Object,Syncfusion.Windows.Controls.RichTextBoxAdv.RequestNavigateEventArgs)">
+            <summary>
+            Handles the RequestNavigate event of the richTextBoxAdv control.
+            </summary>
+            <param name="obj">The source of the event.</param>
+            <param name="args">The <see cref="T:Syncfusion.Windows.Controls.RichTextBoxAdv.RequestNavigateEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="T:syncfusion.richtextboxdemos.wpf.AIWriteDemo">
+            <summary>
+            Interaction logic for AIWrite.xaml
+            </summary>
+            <summary>
+            AIWriteDemo
+            </summary>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.AIWriteDemo.PopulateComboBox(System.Windows.Controls.ComboBox,System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Populates the specified ComboBox with the given list of items.
+            </summary>
+            <param name="comboBox">The ComboBox to populate.</param>
+            <param name="items">The collection of items to set as the data source.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.AIWriteDemo.InitializeComboBoxItems">
+            <summary>
+            Initializes and populates the combo boxes with predefined items for tone, format, and length.
+            </summary>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.AIWriteDemo.GenerateContent_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the click event for generating content.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">Event data for the RoutedEventArgs.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.AIWriteDemo.rewriteContent_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the click event for rewriting content.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">Event data for the RoutedEventArgs.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.AIWriteDemo.PreviousButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the click event for the Previous button.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">Event data for the RoutedEventArgs.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.AIWriteDemo.NextButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the click event for the Next button.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">Event data for the RoutedEventArgs.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.AIWriteDemo.UpdateButtonStates">
+            <summary>
+            Update the states of the previous and next suggestion buttons.
+            </summary>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.AIWriteDemo.SettingsButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the click event for showing the Settings panel.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">Event data for the RoutedEventArgs.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.AIWriteDemo.CloseSettings_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the click event for closing the Settings panel.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">Event data for the RoutedEventArgs.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.AIWriteDemo.CloseDialog(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the click event for closing the dialog.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">Event data for the RoutedEventArgs.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.AIWriteDemo.InsertContent(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the click event for inserting content.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">Event data for the RoutedEventArgs.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.AIWriteDemo.richTextBoxAdv_ContentChanged(System.Object,Syncfusion.Windows.Controls.RichTextBoxAdv.ContentChangedEventArgs)">
+            <summary>
+            Handles the content changed event for the SfRichTextBoxAdv.
+            Enables or disables the generate and rewrite buttons based on the content.
+            </summary>
+            <param name="obj">The source of the event.</param>
+            <param name="args">Event data for the ContentChangedEventArgs.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.AIWriteDemo.richTextBoxAdv_DocumentChanged(System.Object,Syncfusion.Windows.Controls.RichTextBoxAdv.DocumentChangedEventArgs)">
+            <summary>
+            Handles the event when the document inside the SfRichTextBoxAdv changes.
+            </summary>
+            <param name="obj">The source of the event.</param>
+            <param name="args">The event arguments, containing details about the document change.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.AIWriteDemo.UpdateDocumentBackground">
+            <summary>
+            Updates the background color of the document in the SfRichTextBoxAdv controls
+            </summary>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.AIWriteDemo.SmartWrite(System.String)">
+            <summary>
+            Asynchronously generates or rewrites content based on the user's input.
+            and updates the UI with the generated or rewritten content.
+            </summary>
+            <param name="writeAction">The action to perform, either "rewrite" or "generate".</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.AIWriteDemo.UpdateIndexAndDisplayContent">
+            <summary>
+            Updates the displayed index and total content count, then shows the content for the current index.
+            </summary>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.AIWriteDemo.DisplayContent(System.Int32)">
+            <summary>
+            Displays the content in the SfRichTextBoxAdv.
+            </summary>
+            <param name="index">The index of the content to display.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.AIWriteDemo.LoadHTMLContent(System.String)">
+            <summary>
+            Loads the provided HTML content into the SfRichTextBoxAdv.
+            </summary>
+            <param name="htmlData">The HTML content to load into the SfRichTextBoxAdv.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.AIWriteDemo.GetTextContent">
+            <summary>
+            Retrieves the text content from the SfRichTextBoxAdv as a string.
+            </summary>
+            <returns>The text content of the SfRichTextBoxAdv.</returns>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.AIWriteDemo.OnClosing(System.ComponentModel.CancelEventArgs)">
+            <summary>
+            Handles cleanup when the window is closing.
+            Unsubscribes from event handlers, clears ComboBox data sources, and disposes of resources.
+            </summary>
+            <param name="e">The event data for the closing event.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.AIWriteDemo.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.richtextboxdemos.wpf.CreateLettersDemo">
+            <summary>
+            Interaction logic for UIContainerDemo.xaml
+            </summary>
+            <summary>
+            CreateLettersDemo
+            </summary>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.CreateLettersDemo.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:syncfusion.richtextboxdemos.wpf.CreateLettersDemo"/> class.
+            </summary>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.CreateLettersDemo.OnLoaded(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Called when [loaded].
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.CreateLettersDemo.RichTextBoxAdv_RequestNavigate(System.Object,Syncfusion.Windows.Controls.RichTextBoxAdv.RequestNavigateEventArgs)">
+            <summary>
+            Handles the RequestNavigate event of the richTextBoxAdv control.
+            </summary>
+            <param name="obj">The source of the event.</param>
+            <param name="args">The <see cref="T:Syncfusion.Windows.Controls.RichTextBoxAdv.RequestNavigateEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.CreateLettersDemo.RichTextBoxAdv_SelectionChanged(System.Object,Syncfusion.Windows.Controls.RichTextBoxAdv.SelectionChangedEventArgs)">
+            <summary>
+            Called on RichTextBoxAdv selection changes.
+            </summary>
+            <param name="obj"></param>
+            <param name="args">An <see cref="T:Syncfusion.Windows.Controls.RichTextBoxAdv.SelectionChangedEventArgs">SelectionChangedEventArgs</see> that contains the event data.</param>
+            <remarks></remarks>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.CreateLettersDemo.LaunchUri(System.String)">
+            <summary>
+            Launches the URI.
+            </summary>
+            <param name="uri">The URI.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.CreateLettersDemo.HelpButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Launches the Help URI
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">An <see cref="T:System.Windows.RoutedEventArgs">RoutedEventArgs</see> that contains the event data.</param>
+            <remarks></remarks>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.CreateLettersDemo.OnClosing(System.ComponentModel.CancelEventArgs)">
+            <summary>
+            Raises the Closing event.
+            </summary>
+            <param name="e">CancelEventArgs that contains the event dat</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.CreateLettersDemo.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.richtextboxdemos.wpf.DocumentEditorDemo">
+            <summary>
+            Interaction logic for DocumentEditor.xaml
+            </summary>
+            <summary>
+            DocumentEditorDemo
+            </summary>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.DocumentEditorDemo.OnLoaded(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Called when [loaded].
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.DocumentEditorDemo.RichTextBoxAdv_RequestNavigate(System.Object,Syncfusion.Windows.Controls.RichTextBoxAdv.RequestNavigateEventArgs)">
+            <summary>
+            Handles the RequestNavigate event of the richTextBoxAdv control.
+            </summary>
+            <param name="obj">The source of the event.</param>
+            <param name="args">The <see cref="T:Syncfusion.Windows.Controls.RichTextBoxAdv.RequestNavigateEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.DocumentEditorDemo.RichTextBoxAdv_SelectionChanged(System.Object,Syncfusion.Windows.Controls.RichTextBoxAdv.SelectionChangedEventArgs)">
+            <summary>
+            Called on RichTextBoxAdv selection changes.
+            </summary>
+            <param name="obj"></param>
+            <param name="args">An <see cref="T:Syncfusion.Windows.Controls.RichTextBoxAdv.SelectionChangedEventArgs">SelectionChangedEventArgs</see> that contains the event data.</param>
+            <remarks></remarks>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.DocumentEditorDemo.LaunchUri(System.String)">
+            <summary>
+            Launches the URI.
+            </summary>
+            <param name="uri">The URI.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.DocumentEditorDemo.HelpButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Launches the Help URI
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">An <see cref="T:System.Windows.RoutedEventArgs">RoutedEventArgs</see> that contains the event data.</param>
+            <remarks></remarks>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.DocumentEditorDemo.OnClosing(System.ComponentModel.CancelEventArgs)">
+            <summary>
+            Raises the Closing event.
+            </summary>
+            <param name="e">CancelEventArgs that contains the event dat</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.DocumentEditorDemo.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.richtextboxdemos.wpf.ForumDemo">
+            <summary>
+            Interaction logic for ForumDemo.xaml
+            </summary>
+            <summary>
+            ForumDemo
+            </summary>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.ForumDemo.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:syncfusion.richtextboxdemos.wpf.ForumDemo"/> class.
+            </summary>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.ForumDemo.OnLoaded(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Called when [loaded].
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.ForumDemo.WindowMinimizeButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the Click event of the window minimize button control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.ForumDemo.WindowCloseButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the Click event of the window close button control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.ForumDemo.WindowHeader_MouseLeftButtonDown(System.Object,System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            Handles the mouse left button down event of the window header control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.Input.MouseButtonEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.ForumDemo.OnClosing(System.ComponentModel.CancelEventArgs)">
+            <summary>
+            Raises the Closing event.
+            </summary>
+            <param name="e">CancelEventArgs that contains the event dat</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.ForumDemo.ClearListViewItems">
+            <summary>
+            Clears the items from the ListView
+            </summary>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.ForumDemo.InitForumContent">
+            <summary>
+            Initializes the content of the forum.
+            </summary>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.ForumDemo.AddReplyControl">
+            <summary>
+            Adds the forum reply control.
+            </summary>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.ForumDemo.PostContent(System.IO.Stream,System.Boolean,Syncfusion.Windows.Controls.RichTextBoxAdv.FormatType)">
+            <summary>
+            Posts the content to RichTextBoxAdv in block layout type.
+            </summary>
+            <param name="contentStream">The content stream.</param>
+            <param name="isInitialQuery">if set to <c>true</c> [is initial query].</param>
+            <param name="formatType">Type of the format.</param>
+        </member>
+        <member name="F:syncfusion.richtextboxdemos.wpf.ForumDemo.listView">
+            <summary>
+            listView Name Field
+            </summary>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.ForumDemo.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.richtextboxdemos.wpf.GrammarDemo">
+            <summary>
+            Interaction logic for Grammar.xaml
+            </summary>
+            <summary>
+            GrammarDemo
+            </summary>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.GrammarDemo.richTextBoxAdv_DocumentChanged(System.Object,Syncfusion.Windows.Controls.RichTextBoxAdv.DocumentChangedEventArgs)">
+            <summary>
+            Handles the event when the document inside the SfRichTextBoxAdv changes.
+            </summary>
+            <param name="obj">The source of the event.</param>
+            <param name="args">The event arguments, containing details about the document change.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.GrammarDemo.UpdateDocumentBackground">
+            <summary>
+            Updates the background color of the document in the SfRichTextBoxAdv controls
+            </summary>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.GrammarDemo.InitializeComboBoxItems">
+            <summary>
+            Initializes the items for the grammarComboBox with a predefined list of grammar-related topics.
+            </summary>
+            <remarks>
+            This method sets the ItemsSource of the grammarComboBox to a collection of common grammar issues.
+            </remarks>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.GrammarDemo.grammarComboBox_DropDownClosed(System.Object,System.EventArgs)">
+            <summary>
+            Handles the DropDownClosed event for the grammarComboBox.
+            </summary>
+            <param name="sender">The source of the event, the grammarComboBox.</param>
+            <param name="e">Event data for the DropDownClosed event.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.GrammarDemo.UpdateGrammarButton(System.String)">
+            <summary>
+            Enables or disables the grammar button based on the content.
+            </summary>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.GrammarDemo.InsertContent(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the event to insert content by closing the dialog window.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">Event data for the RoutedEventArgs.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.GrammarDemo.CloseDialog(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the event to close the dialog window.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">Event data for the RoutedEventArgs.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.GrammarDemo.Rewrite_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the click event for the "Rewrite" button. It sends the user's selected grammar checks and the provided text
+            to the GPT-based assistant for processing and rewriting, then loads the revised content back into the SfRichTextBoxAdv.
+            </summary>
+            <param name="sender">The source of the event, the Rewrite button.</param>
+            <param name="e">Event data for the RoutedEventArgs.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.GrammarDemo.GetTextContent">
+            <summary>
+            Retrieves the text content from the SfRichTextBoxAdv as a string.
+            </summary>
+            <returns>The text content of the SfRichTextBoxAdv.</returns>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.GrammarDemo.SetRichTextContent(System.String)">
+            <summary>
+            Sets the text content with the provided text.
+            </summary>
+            <param name="text">The text to be inserted into the SfRichTextBoxAdv.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.GrammarDemo.InsertText(System.String)">
+            <summary>
+            Inserts the specified text at the current selection in the editor.
+            </summary>
+            <param name="text">The text to be inserted into the rich text editor.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.GrammarDemo.OnClosing(System.ComponentModel.CancelEventArgs)">
+            <summary>
+            Handles cleanup when the window is closing.
+            Unsubscribes from event handlers, clears ComboBox data sources, and disposes of resources.
+            </summary>
+            <param name="e">The event data for the closing event.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.GrammarDemo.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.richtextboxdemos.wpf.LocalizationDemo">
+            <summary>
+            Interaction logic for MainWindow.xaml
+            </summary>
+            <summary>
+            LocalizationDemo
+            </summary>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.LocalizationDemo.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:syncfusion.demoscommon.wpf.MainWindow"/> class.
+            </summary>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.LocalizationDemo.OnLoaded(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Called when [loaded].
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.LocalizationDemo.RichTextBoxAdv_RequestNavigate(System.Object,Syncfusion.Windows.Controls.RichTextBoxAdv.RequestNavigateEventArgs)">
+            <summary>
+            Handles the RequestNavigate event of the richTextBoxAdv control.
+            </summary>
+            <param name="obj">The source of the event.</param>
+            <param name="args">The <see cref="T:Syncfusion.Windows.Controls.RichTextBoxAdv.RequestNavigateEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.LocalizationDemo.RichTextBoxAdv_SelectionChanged(System.Object,Syncfusion.Windows.Controls.RichTextBoxAdv.SelectionChangedEventArgs)">
+            <summary>
+            Called on RichTextBoxAdv selection changes.
+            </summary>
+            <param name="obj"></param>
+            <param name="args">An <see cref="T:Syncfusion.Windows.Controls.RichTextBoxAdv.SelectionChangedEventArgs">SelectionChangedEventArgs</see> that contains the event data.</param>
+            <remarks></remarks>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.LocalizationDemo.LaunchUri(System.String)">
+            <summary>
+            Launches the URI.
+            </summary>
+            <param name="uri">The URI.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.LocalizationDemo.HelpButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Launches the Help URI
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">An <see cref="T:System.Windows.RoutedEventArgs">RoutedEventArgs</see> that contains the event data.</param>
+            <remarks></remarks>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.LocalizationDemo.OnClosing(System.ComponentModel.CancelEventArgs)">
+            <summary>
+            Raises the Closing event.
+            </summary>
+            <param name="e">CancelEventArgs that contains the event dat</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.LocalizationDemo.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.richtextboxdemos.wpf.Views.ReWriteDemo">
+            <summary>
+            Interaction logic for ReWriteDemo.xaml
+            </summary>
+            <summary>
+            ReWriteDemo
+            </summary>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.Views.ReWriteDemo.PopulateComboBox(System.Windows.Controls.ComboBox,System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Populates the specified ComboBox with the given list of items.
+            </summary>
+            <param name="comboBox">The ComboBox to populate.</param>
+            <param name="items">The collection of items to set as the data source.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.Views.ReWriteDemo.InitializeComboBoxItems">
+            <summary>
+            Initializes and populates the ComboBoxes with predefined tone, format, and length options.
+            </summary>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.Views.ReWriteDemo.SettingsButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the Settings button click event by displaying the Settings panel 
+            and hiding the Settings button and page panel.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">Event data for the RoutedEventArgs.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.Views.ReWriteDemo.CloseSettings_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the Close Settings button click event by hiding the Settings panel 
+            and displaying the Settings button and page panel.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">Event data for the RoutedEventArgs.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.Views.ReWriteDemo.CloseDialog(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the event to close the dialog window.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">Event data for the RoutedEventArgs.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.Views.ReWriteDemo.InsertContent(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the event to insert content by closing the dialog window.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">Event data for the RoutedEventArgs.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.Views.ReWriteDemo.rewriteContent_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the click event for rewriting content.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">Event data for the RoutedEventArgs.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.Views.ReWriteDemo.PreviousButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the click event for the Previous button.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">Event data for the RoutedEventArgs.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.Views.ReWriteDemo.NextButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the click event for the next button.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">Event data for the RoutedEventArgs.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.Views.ReWriteDemo.UpdateButtonStates">
+            <summary>
+            Update the states of the previous and next suggestion buttons.
+            </summary>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.Views.ReWriteDemo.UpdateRewriteButtons(System.String)">
+            <summary>
+            Enables or disables the generate and rewrite buttons based on the content.
+            </summary>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.Views.ReWriteDemo.richTextBoxAdv_DocumentChanged(System.Object,Syncfusion.Windows.Controls.RichTextBoxAdv.DocumentChangedEventArgs)">
+            <summary>
+            Handles the event when the document inside the SfRichTextBoxAdv changes.
+            </summary>
+            <param name="obj">The source of the event.</param>
+            <param name="args">The event arguments, containing details about the document change.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.Views.ReWriteDemo.UpdateDocumentBackground">
+            <summary>
+            Updates the background color of the document in the SfRichTextBoxAdv controls
+            </summary>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.Views.ReWriteDemo.SmartWrite(System.String)">
+            <summary>
+            Asynchronously generates or rewrites content based on the user's input.
+            and updates the UI with the generated or rewritten content.
+            </summary>
+            <param name="writeAction">The action to perform, either "rewrite" or "generate".</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.Views.ReWriteDemo.UpdateIndexAndDisplayContent">
+            <summary>
+            Updates the displayed index and total content count, then shows the content for the current index.
+            </summary>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.Views.ReWriteDemo.DisplayContent(System.Int32)">
+            <summary>
+            Displays the content in the SfRichTextBoxAdv.
+            </summary>
+            <param name="index">The index of the content to display.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.Views.ReWriteDemo.LoadHTMLContent(System.String)">
+            <summary>
+            Loads the provided HTML content into the SfRichTextBoxAdv.
+            </summary>
+            <param name="htmlData">The HTML content to load into the SfRichTextBoxAdv.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.Views.ReWriteDemo.GetTextContent">
+            <summary>
+            Retrieves the text content from the SfRichTextBoxAdv as a string.
+            </summary>
+            <returns>The text content of the SfRichTextBoxAdv.</returns>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.Views.ReWriteDemo.SetRichTextContent(System.String)">
+            <summary>
+            Sets the text content with the provided text.
+            </summary>
+            <param name="text">The text to be inserted into the SfRichTextBoxAdv.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.Views.ReWriteDemo.InsertText(System.String)">
+            <summary>
+            Inserts the specified text at the current selection in the editor.
+            </summary>
+            <param name="text">The text to be inserted into the rich text editor.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.Views.ReWriteDemo.OnClosing(System.ComponentModel.CancelEventArgs)">
+            <summary>
+            Handles cleanup when the window is closing.
+            Unsubscribes from event handlers, clears ComboBox data sources, and disposes of resources.
+            </summary>
+            <param name="e">The event data for the closing event.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.Views.ReWriteDemo.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.richtextboxdemos.wpf.RightToLeftDemo">
+            <summary>
+            Interaction logic for RightToLeftDemo.xaml
+            </summary>
+            <summary>
+            RightToLeftDemo
+            </summary>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.RightToLeftDemo.OnLoaded(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Called when [loaded].
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.RightToLeftDemo.RichTextBoxAdv_RequestNavigate(System.Object,Syncfusion.Windows.Controls.RichTextBoxAdv.RequestNavigateEventArgs)">
+            <summary>
+            Handles the RequestNavigate event of the richTextBoxAdv control.
+            </summary>
+            <param name="obj">The source of the event.</param>
+            <param name="args">The <see cref="T:Syncfusion.Windows.Controls.RichTextBoxAdv.RequestNavigateEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.RightToLeftDemo.RichTextBoxAdv_SelectionChanged(System.Object,Syncfusion.Windows.Controls.RichTextBoxAdv.SelectionChangedEventArgs)">
+            <summary>
+            Called on RichTextBoxAdv selection changes.
+            </summary>
+            <param name="obj"></param>
+            <param name="args">An <see cref="T:Syncfusion.Windows.Controls.RichTextBoxAdv.SelectionChangedEventArgs">SelectionChangedEventArgs</see> that contains the event data.</param>
+            <remarks></remarks>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.RightToLeftDemo.LaunchUri(System.String)">
+            <summary>
+            Launches the URI.
+            </summary>
+            <param name="uri">The URI.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.RightToLeftDemo.HelpButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Launches the Help URI
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">An <see cref="T:System.Windows.RoutedEventArgs">RoutedEventArgs</see> that contains the event data.</param>
+            <remarks></remarks>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.RightToLeftDemo.OnClosing(System.ComponentModel.CancelEventArgs)">
+            <summary>
+            Raises the Closing event.
+            </summary>
+            <param name="e">CancelEventArgs that contains the event dat</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.RightToLeftDemo.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.richtextboxdemos.wpf.SmartEditorDemo">
+            <summary>
+            Interaction logic for SmartEditorDemo.xaml
+            </summary>
+            <summary>
+            SmartEditorDemo
+            </summary>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.SmartEditorDemo.LaunchUri(System.String)">
+            <summary>
+            Launches the URI.
+            </summary>
+            <param name="uri">The URI.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.SmartEditorDemo.HelpButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Launches the Help URI
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">An <see cref="T:System.Windows.RoutedEventArgs">RoutedEventArgs</see> that contains the event data.</param>
+            <remarks></remarks>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.SmartEditorDemo.RichTextBoxAdv_ContextMenuOpening(System.Object,System.Windows.Controls.ContextMenuEventArgs)">
+            <summary>
+            Adds custom context menu items (Rewrite, Grammar, and Translate) to the SfRichTextBoxAdv context menu.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">Event data for the ContextMenuEventArgs.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.SmartEditorDemo.CreateMenuItemIcon(System.String[])">
+            <summary>
+            Creates menu item icons for AI options.
+            </summary>
+            <param name="pathData">The pathData</param>
+            <returns>Icons of the menu items.</returns>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.SmartEditorDemo.ApplyIconColor(System.Windows.Shapes.Path)">
+            <summary>
+            Applies the icon color to the context menu AI option icons.
+            </summary>
+            <param name="iconPath">The path of the icon to which the color will be applied.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.SmartEditorDemo.RichTextBoxAdv_ContextMenuClosing(System.Object,System.Windows.Controls.ContextMenuEventArgs)">
+            <summary>
+            Removes the custom context menu items (Rewrite, Grammar, and Translate) from the SfRichTextBoxAdv context menu
+            when the context menu is closing.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">Event data for the ContextMenuEventArgs.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.SmartEditorDemo.RewriteMenuItem_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the click event for the "Rewrite" context menu item.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">Event data for the RoutedEventArgs.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.SmartEditorDemo.GrammarMenuItem_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the click event for the "Grammar" context menu item.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">Event data for the RoutedEventArgs.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.SmartEditorDemo.TranslateMenuItem_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the click event for the "Translate" context menu item.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">Event data for the RoutedEventArgs.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.SmartEditorDemo.HandleMenuItemClick(System.Object,System.String)">
+            <summary>
+            Handles the processing of the selected text by passing it to a dynamic demo instance,
+            then pastes the generated content into the SfRichTextBoxAdv if a result is returned.
+            </summary>
+            <param name="demo">The dynamic demo instance used to process the selected text.</param>
+            <param name="selectedText">The selected text from the SfRichTextBoxAdv to be processed.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.SmartEditorDemo.richTextBoxAdv_Loaded(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the Loaded event for the SfRichTextBoxAdv.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">Event data for the RoutedEventArgs.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.SmartEditorDemo.OnLoaded(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Called when [loaded].
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.SmartEditorDemo.RichTextBoxAdv_RequestNavigate(System.Object,Syncfusion.Windows.Controls.RichTextBoxAdv.RequestNavigateEventArgs)">
+            <summary>
+            Handles the RequestNavigate event of the richTextBoxAdv control.
+            </summary>
+            <param name="obj">The source of the event.</param>
+            <param name="args">The <see cref="T:Syncfusion.Windows.Controls.RichTextBoxAdv.RequestNavigateEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.SmartEditorDemo.RichTextBoxAdv_SelectionChanged(System.Object,Syncfusion.Windows.Controls.RichTextBoxAdv.SelectionChangedEventArgs)">
+            <summary>
+            Called on RichTextBoxAdv selection changes.
+            </summary>
+            <param name="obj"></param>
+            <param name="args">An <see cref="T:Syncfusion.Windows.Controls.RichTextBoxAdv.SelectionChangedEventArgs">SelectionChangedEventArgs</see> that contains the event data.</param>
+            <remarks></remarks>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.SmartEditorDemo.OnClosing(System.ComponentModel.CancelEventArgs)">
+            <summary>
+            Raises the Closing event.
+            </summary>
+            <param name="e">CancelEventArgs that contains the event dat</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.SmartEditorDemo.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.richtextboxdemos.wpf.SmartSummarizerDemo">
+            <summary>
+            Interaction logic for AIAssitView.xaml
+            </summary>
+            <summary>
+            SmartSummarizerDemo
+            </summary>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.SmartSummarizerDemo.OnLoaded(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Called when [loaded].
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.SmartSummarizerDemo.RichTextBoxAdv_RequestNavigate(System.Object,Syncfusion.Windows.Controls.RichTextBoxAdv.RequestNavigateEventArgs)">
+            <summary>
+            Handles the RequestNavigate event of the richTextBoxAdv control.
+            </summary>
+            <param name="obj">The source of the event.</param>
+            <param name="args">The <see cref="T:Syncfusion.Windows.Controls.RichTextBoxAdv.RequestNavigateEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.SmartSummarizerDemo.RichTextBoxAdv_SelectionChanged(System.Object,Syncfusion.Windows.Controls.RichTextBoxAdv.SelectionChangedEventArgs)">
+            <summary>
+            Called on RichTextBoxAdv selection changes.
+            </summary>
+            <param name="obj"></param>
+            <param name="args">An <see cref="T:Syncfusion.Windows.Controls.RichTextBoxAdv.SelectionChangedEventArgs">SelectionChangedEventArgs</see> that contains the event data.</param>
+            <remarks></remarks>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.SmartSummarizerDemo.LaunchUri(System.String)">
+            <summary>
+            Launches the URI.
+            </summary>
+            <param name="uri">The URI.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.SmartSummarizerDemo.HelpButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Launches the Help URI
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">An <see cref="T:System.Windows.RoutedEventArgs">RoutedEventArgs</see> that contains the event data.</param>
+            <remarks></remarks>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.SmartSummarizerDemo.GetTextContent">
+            <summary>
+            Retrieves the text content from the SfRichTextBoxAdv as a string.
+            </summary>
+            <returns>The text content of the SfRichTextBoxAdv.</returns>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.SmartSummarizerDemo.RichTextBoxAdv_DocumentChanged(System.Object,Syncfusion.Windows.Controls.RichTextBoxAdv.DocumentChangedEventArgs)">
+            <summary>
+            Handles the event when the content of the SfRichTextBoxAdv is changed.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="args">The event data containing information about the document change.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.SmartSummarizerDemo.ToggleAIAssistView_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Toggles the visibility of the AI Assist View.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The event data.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.SmartSummarizerDemo.AiAssistView_SuggestionSelected(System.Object,Syncfusion.UI.Xaml.Chat.SuggestionClickedEventArgs)">
+            <summary>
+            Handles the event when a suggestion is selected from the AI Assist view.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The event data containing the selected suggestion.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.SmartSummarizerDemo.AiAssistView_ResponseToolbarItemClicked(System.Object,Syncfusion.UI.Xaml.Chat.ResponseToolbarItemClickedEventArgs)">
+            <summary>
+            Handles the menu item click event for the AiAssistView.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The event data containing details about the menu item clicked.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.SmartSummarizerDemo.richTextBoxAdv_Loaded(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the Loaded event of the SfRichTextBoxAdv.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The event data.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.SmartSummarizerDemo.OnClosing(System.ComponentModel.CancelEventArgs)">
+            <summary>
+            Raises the Closing event.
+            </summary>
+            <param name="e">CancelEventArgs that contains the event dat</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.SmartSummarizerDemo.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.richtextboxdemos.wpf.SmartWriterDemo">
+            <summary>
+            Interaction logic for SmartWriterDemo.xaml
+            </summary>
+            <summary>
+            SmartWriterDemo
+            </summary>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.SmartWriterDemo.OnLoaded(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Called when [loaded].
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.SmartWriterDemo.RichTextBoxAdv_RequestNavigate(System.Object,Syncfusion.Windows.Controls.RichTextBoxAdv.RequestNavigateEventArgs)">
+            <summary>
+            Handles the RequestNavigate event of the richTextBoxAdv control.
+            </summary>
+            <param name="obj">The source of the event.</param>
+            <param name="args">The <see cref="T:Syncfusion.Windows.Controls.RichTextBoxAdv.RequestNavigateEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.SmartWriterDemo.RichTextBoxAdv_SelectionChanged(System.Object,Syncfusion.Windows.Controls.RichTextBoxAdv.SelectionChangedEventArgs)">
+            <summary>
+            Called on RichTextBoxAdv selection changes.
+            </summary>
+            <param name="obj"></param>
+            <param name="args">An <see cref="T:Syncfusion.Windows.Controls.RichTextBoxAdv.SelectionChangedEventArgs">SelectionChangedEventArgs</see> that contains the event data.</param>
+            <remarks></remarks>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.SmartWriterDemo.LaunchUri(System.String)">
+            <summary>
+            Launches the URI.
+            </summary>
+            <param name="uri">The URI.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.SmartWriterDemo.HelpButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Launches the Help URI
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">An <see cref="T:System.Windows.RoutedEventArgs">RoutedEventArgs</see> that contains the event data.</param>
+            <remarks></remarks>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.SmartWriterDemo.RichTextBoxAdv_ContextMenuOpening(System.Object,System.Windows.Controls.ContextMenuEventArgs)">
+            <summary>
+            Adds custom context menu items (Rewrite) to the SfRichTextBoxAdv context menu.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">Event data for the ContextMenuEventArgs.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.SmartWriterDemo.CreateAiWriteMenuItem">
+            <summary>
+            Craetes a new menu item for AIwrite.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.SmartWriterDemo.CreateMenuItemIcon">
+            <summary>
+            create icon for the AIwrite option.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.SmartWriterDemo.RichTextBoxAdv_ContextMenuClosing(System.Object,System.Windows.Controls.ContextMenuEventArgs)">
+            <summary>
+            Removes the custom context menu items (Rewrite, Grammar, and Translate) from the SfRichTextBoxAdv context menu
+            when the context menu is closing.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">Event data for the ContextMenuEventArgs.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.SmartWriterDemo.OnGenerateContentClicked(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the click event for generating content for Smart writer.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The event data.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.SmartWriterDemo.richTextBoxAdv_Loaded(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the Loaded event for the SfRichTextBoxAdv.
+            </summary>
+            <param name="sender">The source of the event, typically the SfRichTextBoxAdv control.</param>
+            <param name="e">The event data containing information about the Loaded event.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.SmartWriterDemo.OnClosing(System.ComponentModel.CancelEventArgs)">
+            <summary>
+            Raises the Closing event.
+            </summary>
+            <param name="e">CancelEventArgs that contains the event dat</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.SmartWriterDemo.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.richtextboxdemos.wpf.StickyNotesDemo">
+            <summary>
+            Interaction logic for StickyNotesDemo.xaml
+            </summary>
+            <summary>
+            StickyNotesDemo
+            </summary>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.StickyNotesDemo.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:syncfusion.richtextboxdemos.wpf.StickyNotesDemo"/> class.
+            </summary>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.StickyNotesDemo.OnLoaded(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Called when [loaded].
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.StickyNotesDemo.NewNoteButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Called on new note button clicked.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">An <see cref="T:System.Windows.RoutedEventArgs">RoutedEventArgs</see> that contains the event data.</param>
+            <remarks></remarks>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.StickyNotesDemo.DeleteNoteButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Called on delete note button clicked.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">An <see cref="T:System.Windows.RoutedEventArgs">RoutedEventArgs</see> that contains the event data.</param>
+            <remarks></remarks>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.StickyNotesDemo.Border_PreviewMouseLeftButtonDown(System.Object,System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            Called on boder mouse left button down.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">An <see cref="T:System.Windows.Input.MouseButtonEventArgs">MouseButtonEventArgs</see> that contains the event data.</param>
+            <remarks></remarks>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.StickyNotesDemo.Thumb_DragDelta(System.Object,System.Windows.Controls.Primitives.DragDeltaEventArgs)">
+            <summary>
+            Called on thumb dragged.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">An <see cref="T:System.Windows.Controls.Primitives.DragDeltaEventArgs">DragDeltaEventArgs</see> that contains the event data.</param>
+            <remarks></remarks>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.StickyNotesDemo.OnClosing(System.ComponentModel.CancelEventArgs)">
+            <summary>
+            Raises the Closing event.
+            </summary>
+            <param name="e">CancelEventArgs that contains the event dat</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.StickyNotesDemo.Dispose">
+            <summary>
+            Releases all resources used by the <see cref="T:syncfusion.richtextboxdemos.wpf.StickyNotesDemo"/>.
+            </summary>
+            <remarks></remarks>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.StickyNotesDemo.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.richtextboxdemos.wpf.TranslateDemo">
+            <summary>
+            Interaction logic for TranslateDemo.xaml
+            </summary>
+            <summary>
+            TranslateDemo
+            </summary>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.TranslateDemo.richTextBoxAdv_DocumentChanged(System.Object,Syncfusion.Windows.Controls.RichTextBoxAdv.DocumentChangedEventArgs)">
+            <summary>
+            Handles the event when the document inside the SfRichTextBoxAdv changes.
+            </summary>
+            <param name="obj">The source of the event.</param>
+            <param name="args">The event arguments, containing details about the document change.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.TranslateDemo.UpdateDocumentBackground">
+            <summary>
+            Updates the background color of the document in the SfRichTextBoxAdv controls
+            </summary>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.TranslateDemo.InitializeComboBoxItems">
+            <summary>
+            Initializes the items for the translation language ComboBox to a predefined list of language options.
+            </summary>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.TranslateDemo.InsertContent(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the event to insert content by closing the dialog window.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">Event data for the RoutedEventArgs.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.TranslateDemo.CloseDialog(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the event to close the dialog window.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">Event data for the RoutedEventArgs.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.TranslateDemo.Translate_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the translation of the text in the SfRichTextBoxAdv when the Translate button is clicked.
+            </summary>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.TranslateDemo.SetRichTextContent(System.String)">
+            <summary>
+            Sets the text content with the provided text.
+            </summary>
+            <param name="text">The text to be inserted into the SfRichTextBoxAdv.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.TranslateDemo.InsertText(System.String)">
+            <summary>
+            Inserts the specified text at the current selection in the editor.
+            </summary>
+            <param name="text">The text to be inserted into the rich text editor.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.TranslateDemo.GetTextContent">
+            <summary>
+            Retrieves the text content from the SfRichTextBoxAdv as a string.
+            </summary>
+            <returns>The text content of the SfRichTextBoxAdv.</returns>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.TranslateDemo.OnClosing(System.ComponentModel.CancelEventArgs)">
+            <summary>
+            Handles cleanup when the window is closing.
+            Unsubscribes from event handlers, clears ComboBox data sources, and disposes of resources.
+            </summary>
+            <param name="e">The event data for the closing event.</param>
+        </member>
+        <member name="M:syncfusion.richtextboxdemos.wpf.TranslateDemo.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:XamlGeneratedNamespace.GeneratedInternalTypeHelper">
+            <summary>
+            GeneratedInternalTypeHelper
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateInstance(System.Type,System.Globalization.CultureInfo)">
+            <summary>
+            CreateInstance
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.GetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            GetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.SetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            SetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateDelegate(System.Type,System.Object,System.String)">
+            <summary>
+            CreateDelegate
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.AddEventHandler(System.Reflection.EventInfo,System.Object,System.Delegate)">
+            <summary>
+            AddEventHandler
+            </summary>
+        </member>
+    </members>
+</doc>
