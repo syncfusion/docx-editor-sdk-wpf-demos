@@ -55,15 +55,6 @@
   <Import Project="..\Common\demos.common.props">
   </Import>
   <Import Project="..\targets\MultiTargeting.targets" />
-  <PropertyGroup Condition=" '$(TargetFramework)'=='net462' ">
-    <SyncfusionAssemblyLocation>4.6.2</SyncfusionAssemblyLocation>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(TargetFramework)'=='net8.0-windows' ">
-    <SyncfusionAssemblyLocation>net8.0</SyncfusionAssemblyLocation>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(TargetFramework)'=='net9.0-windows' ">
-    <SyncfusionAssemblyLocation>net9.0</SyncfusionAssemblyLocation>
-  </PropertyGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
