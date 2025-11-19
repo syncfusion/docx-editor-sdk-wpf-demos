@@ -1,0 +1,99 @@
+<Project>
+  <ItemGroup>
+    <Reference Include="Syncfusion.Themes.MaterialLight.WPF">
+      <HintPath>C:\Work\SVN\31.2.1\Assemblies\$(TargetFramework)\Syncfusion.Themes.MaterialLight.WPF.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+    <Reference Include="Syncfusion.Themes.MaterialDark.WPF">
+      <HintPath>C:\Work\SVN\31.2.1\Assemblies\$(TargetFramework)\Syncfusion.Themes.MaterialDark.WPF.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+    <Reference Include="Syncfusion.Themes.MaterialLightBlue.WPF">
+      <HintPath>C:\Work\SVN\31.2.1\Assemblies\$(TargetFramework)\Syncfusion.Themes.MaterialLightBlue.WPF.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+    <Reference Include="Syncfusion.Themes.MaterialDarkBlue.WPF">
+      <HintPath>C:\Work\SVN\31.2.1\Assemblies\$(TargetFramework)\Syncfusion.Themes.MaterialDarkBlue.WPF.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+    <Reference Include="Syncfusion.Themes.Office2019Colorful.WPF">
+      <HintPath>C:\Work\SVN\31.2.1\Assemblies\$(TargetFramework)\Syncfusion.Themes.Office2019Colorful.WPF.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+    <Reference Include="Syncfusion.Themes.Office2019Black.WPF">
+      <HintPath>C:\Work\SVN\31.2.1\Assemblies\$(TargetFramework)\Syncfusion.Themes.Office2019Black.WPF.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+    <Reference Include="Syncfusion.Themes.Office2019White.WPF">
+      <HintPath>C:\Work\SVN\31.2.1\Assemblies\$(TargetFramework)\Syncfusion.Themes.Office2019White.WPF.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+    <Reference Include="Syncfusion.Themes.Office2019DarkGray.WPF">
+      <HintPath>C:\Work\SVN\31.2.1\Assemblies\$(TargetFramework)\Syncfusion.Themes.Office2019DarkGray.WPF.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+    <Reference Include="Syncfusion.Themes.Office2019HighContrast.WPF">
+      <HintPath>C:\Work\SVN\31.2.1\Assemblies\$(TargetFramework)\Syncfusion.Themes.Office2019HighContrast.WPF.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+    <Reference Include="Syncfusion.Themes.Office2019HighContrastWhite.WPF">
+      <HintPath>C:\Work\SVN\31.2.1\Assemblies\$(TargetFramework)\Syncfusion.Themes.Office2019HighContrastWhite.WPF.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+    <Reference Include="Syncfusion.Themes.SystemTheme.WPF">
+      <HintPath>C:\Work\SVN\31.2.1\Assemblies\$(TargetFramework)\Syncfusion.Themes.SystemTheme.WPF.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+    <Reference Include="Syncfusion.Themes.FluentLight.WPF">
+      <HintPath>C:\Work\SVN\31.2.1\Assemblies\$(TargetFramework)\Syncfusion.Themes.FluentLight.WPF.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Syncfusion.Themes.FluentDark.WPF">
+      <HintPath>C:\Work\SVN\31.2.1\Assemblies\$(TargetFramework)\Syncfusion.Themes.FluentDark.WPF.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Syncfusion.Themes.Windows11Light.WPF">
+      <HintPath>C:\Work\SVN\31.2.1\Assemblies\$(TargetFramework)\Syncfusion.Themes.Windows11Light.WPF.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Syncfusion.Themes.Windows11Dark.WPF">
+      <HintPath>C:\Work\SVN\31.2.1\Assemblies\$(TargetFramework)\Syncfusion.Themes.Windows11Dark.WPF.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Syncfusion.Themes.Material3Light.WPF">
+      <HintPath>C:\Work\SVN\31.2.1\Assemblies\$(TargetFramework)\Syncfusion.Themes.Material3Light.WPF.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Syncfusion.Themes.Material3Dark.WPF">
+      <HintPath>C:\Work\SVN\31.2.1\Assemblies\$(TargetFramework)\Syncfusion.Themes.Material3Dark.WPF.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Syncfusion.SfBusyIndicator.WPF">
+      <HintPath>C:\Work\SVN\31.2.1\Assemblies\$(TargetFramework)\Syncfusion.SfBusyIndicator.WPF.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Syncfusion.SfInput.WPF">
+      <HintPath>C:\Work\SVN\31.2.1\Assemblies\$(TargetFramework)\Syncfusion.SfInput.WPF.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfNavigationDrawer.WPF">
+      <HintPath>C:\Work\SVN\31.2.1\Assemblies\$(TargetFramework)\Syncfusion.SfNavigationDrawer.WPF.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Syncfusion.SfSkinManager.WPF">
+      <HintPath>C:\Work\SVN\31.2.1\Assemblies\$(TargetFramework)\Syncfusion.SfSkinManager.WPF.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Syncfusion.Shared.WPF">
+      <HintPath>C:\Work\SVN\31.2.1\Assemblies\$(TargetFramework)\Syncfusion.Shared.WPF.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Syncfusion.Tools.WPF">
+      <HintPath>C:\Work\SVN\31.2.1\Assemblies\$(TargetFramework)\Syncfusion.Tools.WPF.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Syncfusion.Licensing">
+      <HintPath>C:\Work\SVN\31.2.1\Assemblies\$(TargetFramework)\Syncfusion.Licensing.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+</Project>
