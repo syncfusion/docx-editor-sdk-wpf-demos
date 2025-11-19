@@ -1,4 +1,4 @@
-# Syncfusion® DOCX Editor SDK WPF Demos
+# Syncfusion® DOCX Editor SDK WPF Demos 
 
 This repository contains the demos of [Syncfusion DOCX Editor SDK for WPF](https://www.syncfusion.com/wpf-controls/richtextbox). This is the best place to check our WPF DOCX Editor control to get more insight about the usage of APIs. The WPF DOCX Editor SDK in which you can edit, format and generate professional Word documents in native WPF application.
 
