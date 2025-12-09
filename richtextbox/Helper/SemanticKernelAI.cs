@@ -1,4 +1,4 @@
-#region Copyright Syncfusion® Inc. 2001-2025.
+﻿#region Copyright Syncfusion® Inc. 2001-2025.
 // Copyright Syncfusion® Inc. 2001-2025. All rights reserved.
 // Use of this code is subject to the terms of our license.
 // A copy of the current license can be obtained at any time by e-mailing
@@ -21,7 +21,7 @@ namespace syncfusion.richtextboxdemos.wpf.Helper
         /// <param name="key">Key for the semantic kernal API</param>
         public SemanticKernelAI(string apikey, string endPoint, string modelName)
         {
-            new AzureOpenAIClient(new System.Uri(endPoint), new System.ClientModel.ApiKeyCredential(apikey)).AsChatClient(modelName);
+            new AzureOpenAIClient(new System.Uri(endPoint), new System.ClientModel.ApiKeyCredential(apikey)).GetChatClient(modelName).AsIChatClient();
         }
         #endregion
 
@@ -39,7 +39,7 @@ namespace syncfusion.richtextboxdemos.wpf.Helper
                 if (AISettings.ClientAI != null)
                 {
                     //// Send the chat completion request to the OpenAI API and await the response.
-                    var response = await AISettings.ClientAI.CompleteAsync(systemPrompt);
+                    var response = await AISettings.ClientAI.GetResponseAsync(systemPrompt);
                     return response.ToString();
                 }
             }
