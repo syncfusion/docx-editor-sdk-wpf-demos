@@ -1,4 +1,4 @@
-#region Copyright Syncfusion® Inc. 2001-2025.
+﻿#region Copyright Syncfusion® Inc. 2001-2025.
 // Copyright Syncfusion® Inc. 2001-2025. All rights reserved.
 // Use of this code is subject to the terms of our license.
 // A copy of the current license can be obtained at any time by e-mailing
@@ -184,11 +184,11 @@ namespace syncfusion.demoscommon.wpf
                 }
                 else
                 {
-                    clientAI = new AzureOpenAIClient(new Uri(DemoBrowserViewModel.EndPoint), new AzureKeyCredential(DemoBrowserViewModel.Key)).AsChatClient(modelId: DemoBrowserViewModel.ModelName);
+                    clientAI = new AzureOpenAIClient(new Uri(DemoBrowserViewModel.EndPoint), new AzureKeyCredential(DemoBrowserViewModel.Key)).GetChatClient(DemoBrowserViewModel.ModelName).AsIChatClient();
                     
                     if (ClientAI != null)
                     {
-                        await ClientAI.CompleteAsync("Hello, Test Check");
+                        await ClientAI.GetResponseAsync("Hello, Test Check");
                     }
                 }
             }
