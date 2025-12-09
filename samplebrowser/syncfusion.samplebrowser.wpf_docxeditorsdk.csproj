@@ -28,9 +28,9 @@
     <None Remove="App.ico" />
     <Resource Include="App.ico" />
     <Compile Remove="AutomationMail.cs" />
-    <PackageReference Include="Syncfusion.SfColorPalette.Wpf" Version="31.2.2." />
-    <PackageReference Include="Syncfusion.SfRadialMenu.Wpf" Version="31.2.2." />
-    <PackageReference Include="Syncfusion.Tools.Wpf" Version="31.2.2." />
+    <PackageReference Include="Syncfusion.SfColorPalette.Wpf" Version="31.2.2" />
+    <PackageReference Include="Syncfusion.SfRadialMenu.Wpf" Version="31.2.2" />
+    <PackageReference Include="Syncfusion.Tools.Wpf" Version="31.2.2" />
     <PackageReference Include="Azure.AI.OpenAI">
       <Version>2.1.0</Version>
     </PackageReference>

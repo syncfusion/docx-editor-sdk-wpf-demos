@@ -46,11 +46,11 @@
     <Page Remove="Views\*" />
     <Compile Remove="Views\*" />
     <Compile Remove="RichTextBoxDemosViewModel.cs" />
-    <PackageReference Include="Syncfusion.Compression.Base" Version="31.2.2." />
-    <PackageReference Include="Syncfusion.DocIO.Wpf" Version="31.2.2." />
-    <PackageReference Include="Syncfusion.SfRichTextBoxAdv.WPF" Version="31.2.2." />
-    <PackageReference Include="Syncfusion.SfRichTextRibbon.WPF" Version="31.2.2." />
-    <PackageReference Include="Syncfusion.Tools.WPF" Version="31.2.2." />
+    <PackageReference Include="Syncfusion.Compression.Base" Version="31.2.2" />
+    <PackageReference Include="Syncfusion.DocIO.Wpf" Version="31.2.2" />
+    <PackageReference Include="Syncfusion.SfRichTextBoxAdv.WPF" Version="31.2.2" />
+    <PackageReference Include="Syncfusion.SfRichTextRibbon.WPF" Version="31.2.2" />
+    <PackageReference Include="Syncfusion.Tools.WPF" Version="31.2.2" />
   </ItemGroup>
   <Import Project="..\Common\demos.common.props">
   </Import>

@@ -55,13 +55,13 @@
     <None Remove="App.config" />
     <Compile Remove="App.xaml.cs" />
     <ApplicationDefinition Remove="App.xaml" />
-    <PackageReference Include="Syncfusion.Compression.Base" Version="31.2.2." />
-    <PackageReference Include="Syncfusion.DocIO.Wpf" Version="31.2.2." />
-    <PackageReference Include="Syncfusion.SfRichTextBoxAdv.WPF" Version="31.2.2." />
-    <PackageReference Include="Syncfusion.SfRichTextRibbon.WPF" Version="31.2.2." />
-    <PackageReference Include="Syncfusion.Tools.WPF" Version="31.2.2." />
-    <PackageReference Include="Syncfusion.SfBusyIndicator.WPF" Version="31.2.2." />
-    <PackageReference Include="Syncfusion.SfChat.WPF" Version="31.2.2." />
+    <PackageReference Include="Syncfusion.Compression.Base" Version="31.2.2" />
+    <PackageReference Include="Syncfusion.DocIO.Wpf" Version="31.2.2" />
+    <PackageReference Include="Syncfusion.SfRichTextBoxAdv.WPF" Version="31.2.2" />
+    <PackageReference Include="Syncfusion.SfRichTextRibbon.WPF" Version="31.2.2" />
+    <PackageReference Include="Syncfusion.Tools.WPF" Version="31.2.2" />
+    <PackageReference Include="Syncfusion.SfBusyIndicator.WPF" Version="31.2.2" />
+    <PackageReference Include="Syncfusion.SfChat.WPF" Version="31.2.2" />
     <PackageReference Include="Azure.AI.OpenAI">
       <Version>2.1.0</Version>
     </PackageReference>
