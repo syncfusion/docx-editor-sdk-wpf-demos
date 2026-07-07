@@ -1,0 +1,395 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>syncfusion.samplebrowser.wpf_test_sdk</AssemblyName>
+    <RootNamespace>syncfusion.samplebrowser.wpf_test_sdk</RootNamespace>
+    <DefineConstants>TEST</DefineConstants>
+    <UseWPF>true</UseWPF>
+    <TargetFrameworkVersion>
+    </TargetFrameworkVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net9.0-windows' ">
+    <RuntimeHostConfigurationOption Include="Switch.System.Windows.Controls.DisableDynamicResourceOptimization" Value="true" />
+  </ItemGroup>
+  <ItemGroup Condition=" '$(TargetFrameworkIdentifier)' == '.NETFRAMEWORK' ">
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Syncfusion.SfSmartComponents.WPF" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.SfChat.WPF" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.SfTextInputLayout.WPF" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Tools.WPF" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Shared.WPF.Classic" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Tools.WPF.Classic" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Calculate.Base" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Compression.Base" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Data.Wpf" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.DocIO.Wpf" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.XlsIO.Wpf" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Edit.WPF" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Gantt.WPF" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.SfGauge.WPF" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Grid.WPF" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.GridCommon.WPF" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.GridExcelExport.Wpf" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Linq.Base" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Markdown" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.SfMarkdownViewer.WPF" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.OfficeChart.Base" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Pdf.Wpf" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.PdfViewer.WPF" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.PivotAnalysis.Base" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.PivotTable.Wpf" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.PivotTableExport.Wpf" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.PMML.Wpf" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.ProjIO.Base" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Presentation.Wpf" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.PresentationToPdfConverter.Wpf" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.PropertyGrid.WPF" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.SfAccordion.WPF" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.SfBarcode.WPF" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.SfBulletGraph.WPF" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.SfCellGrid.WPF" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.SfChart.WPF" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.SfChromelessWindow.WPF" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.SfColorPalette.Wpf" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.SfDiagram.WPF" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.SfDiagramRibbon.WPF" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.SfGauge.WPF" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.SfGrid.Wpf" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.SfGridCommon.WPF" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.DataGridExcelExport.Wpf" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.SfHeatMap.WPF" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.SfHubTile.Wpf" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.SfImageEditor.WPF" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.SfMaps.WPF" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.SfNavigationDrawer.WPF" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.SfProgressBar.WPF" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.SfRadialMenu.Wpf" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.SfRichTextBoxAdv.WPF" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.SfRichTextRibbon.WPF" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.SfScheduler.WPF" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.SfToastNotification.WPF" Version="34.1.29" />
+  </ItemGroup>
+  <ItemGroup Condition=" '$(TargetFrameworkIdentifier)' == '.NETFRAMEWORK' ">
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.19" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\assistview\syncfusion.assistviewdemos.wpf_lib.csproj">
+      <Project>{31fa9aea-1e7c-4a72-9d0e-375d7327549c}</Project>
+      <Name>syncfusion.assistviewdemos.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\barcode\syncfusion.barcodedemos.wpf_lib.csproj">
+      <Project>{57a26964-0bba-4bbe-b1dc-7412b8dc10f8}</Project>
+      <Name>syncfusion.barcodedemos.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\bulletgraph\syncfusion.bulletgraphdemos.wpf_lib.csproj">
+      <Project>{bdb42436-7107-4d53-80b8-77b2e10c5d3a}</Project>
+      <Name>syncfusion.bulletgraphdemos.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\calculate\syncfusion.calculatedemos.wpf_lib.csproj">
+      <Project>{83f230f0-2e49-4e56-beb9-ed295ef11145}</Project>
+      <Name>syncfusion.calculatedemos.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\chart\syncfusion.chartdemos.wpf_lib.csproj">
+      <Project>{0f2b472d-ce6c-47a7-8cc3-8b90c6dbae51}</Project>
+      <Name>syncfusion.chartdemos.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\syncfusion.demoscommon.wpf_lib.csproj">
+      <Project>{4abb6a2b-6358-4207-8899-f62d6f052e79}</Project>
+      <Name>syncfusion.demoscommon.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\datagrid\syncfusion.datagriddemos.wpf_lib.csproj">
+      <Project>{c7cf6dd2-ad6e-4a29-9983-9e93c4c1f6f9}</Project>
+      <Name>syncfusion.datagriddemos.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\diagram\syncfusion.diagramdemos.wpf_lib.csproj">
+      <Project>{98f42ca4-f1a9-48e1-8116-d68319141ea0}</Project>
+      <Name>syncfusion.diagramdemos.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\docio\syncfusion.dociodemos.wpf_lib.csproj">
+      <Project>{2c850de9-9484-4a11-aa51-df97c6941786}</Project>
+      <Name>syncfusion.dociodemos.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\markdown\syncfusion.markdowndemos.wpf_lib.csproj">
+      <Project>{2c850de9-9484-4a11-aa51-df97c6941786}</Project>
+      <Name>syncfusion.markdowndemos.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\markdownviewer\syncfusion.markdownviewerdemos.wpf_lib.csproj">
+      <Project>{8ab9591b-9f1c-460e-8bb9-e5179cd5e6a5}</Project>
+      <Name>syncfusion.markdownviewerdemos.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\olapchart\syncfusion.olapchartdemos.wpf_lib.csproj">
+      <Project>{8c1d55bd-f1f5-4de9-b817-5f80df97a72f}</Project>
+      <Name>syncfusion.olapchartdemos.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\olapclient\syncfusion.olapclientdemos.wpf_lib.csproj">
+      <Project>{8ab9591b-9f1c-460e-8bb9-e5179cd5e6a5}</Project>
+      <Name>syncfusion.olapclientdemos.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\olapgauge\syncfusion.olapgaugedemos.wpf_lib.csproj">
+      <Project>{eeb50d80-bc28-4eca-b418-854f9b85cf57}</Project>
+      <Name>syncfusion.olapgaugedemos.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\olapgrid\syncfusion.olapgriddemos.wpf_lib.csproj">
+      <Project>{35ffcd73-c379-4845-bc82-e46dd6137488}</Project>
+      <Name>syncfusion.olapgriddemos.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\showcase\bpmn editor\syncfusion.bpmneditor.wpf_lib.csproj">
+      <Project>{c4ff17f2-3bdd-45e2-9105-db5a895a48dd}</Project>
+      <Name>syncfusion.bpmneditor.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\showcase\brainstorming diagram\syncfusion.brainstormingdiagram.wpf_lib.csproj">
+      <Project>{93eebdba-d9af-4c14-a3e0-94caad92b937}</Project>
+      <Name>syncfusion.brainstormingdiagram.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\showcase\invoice\syncfusion.invoice.wpf_lib.csproj">
+      <Project>{616a2536-bed4-40a9-b151-264511f4f362}</Project>
+      <Name>syncfusion.invoice.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\smartdatagrid\syncfusion.smartdatagriddemos.wpf_lib.csproj">
+      <Project>{5589cc51-6190-9789-382b-cdec7efb04ba}</Project>
+      <Name>syncfusion.smartdatagriddemos.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\smarttexteditor\syncfusion.smarttexteditordemos.wpf_lib.csproj">
+      <Project>{a01cce68-03dc-45f9-8ab9-0bffd6a9366d}</Project>
+      <Name>syncfusion.smarttexteditordemos.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\xlsio\syncfusion.xlsiodemos.wpf_lib.csproj">
+      <Project>{d48ebc12-d354-49ff-b5d2-1480006013c0}</Project>
+      <Name>syncfusion.xlsiodemos.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\dockingmanager\syncfusion.dockingmanagerdemos.wpf_lib.csproj">
+      <Project>{d84b06da-0d15-4441-95fb-f886048bbabe}</Project>
+      <Name>syncfusion.dockingmanagerdemos.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\dropdown\syncfusion.dropdowndemos.wpf_lib.csproj">
+      <Project>{6c99142e-3084-4b1a-9465-9fea5026f72a}</Project>
+      <Name>syncfusion.dropdowndemos.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\editor\syncfusion.editordemos.wpf_lib.csproj">
+      <Project>{959cd411-e4b6-44f5-9e0a-2622ac4f7f06}</Project>
+      <Name>syncfusion.editordemos.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\gantt\syncfusion.ganttdemos.wpf_lib.csproj">
+      <Project>{9b74d92a-f42c-4bf1-b0a5-dcde9bf7e779}</Project>
+      <Name>syncfusion.ganttdemos.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\gauge\syncfusion.gaugedemos.wpf_lib.csproj">
+      <Project>{3531c625-cafe-4f58-ac6c-a65308a0bced}</Project>
+      <Name>syncfusion.gaugedemos.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\gridcontrol\syncfusion.gridcontroldemos.wpf_lib.csproj">
+      <Project>{46ee9537-3053-40ee-8041-c9bf372ce012}</Project>
+      <Name>syncfusion.gridcontroldemos.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\heatmap\syncfusion.heatmapdemos.wpf_lib.csproj">
+      <Project>{68755b12-b52e-4b20-8af3-8346a4d462b4}</Project>
+      <Name>syncfusion.heatmapdemos.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\avatarview\syncfusion.avatarviewdemos.wpf_lib.csproj">
+      <Name>syncfusion.avatarviewdemos.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\imageeditor\syncfusion.imageeditordemos.wpf_lib.csproj">
+      <Project>{b64564dc-04bf-4153-a4c1-82612a6f5e1a}</Project>
+      <Name>syncfusion.imageeditordemos.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\layout\syncfusion.layoutdemos.wpf_lib.csproj">
+      <Project>{bbb29d42-da58-4bdc-b0a5-dad7db42dd68}</Project>
+      <Name>syncfusion.layoutdemos.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\map\syncfusion.mapdemos.wpf_lib.csproj">
+      <Project>{53e17d95-0fe9-4798-874e-e53c588c5042}</Project>
+      <Name>syncfusion.mapdemos.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\navigation\syncfusion.navigationdemos.wpf_lib.csproj">
+      <Project>{86d7eefe-648f-4356-9228-cde431333f40}</Project>
+      <Name>syncfusion.navigationdemos.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\notification\syncfusion.notificationdemos.wpf_lib.csproj">
+      <Project>{941aec0c-e0df-487b-b1ce-13b2cb49cc1c}</Project>
+      <Name>syncfusion.notificationdemos.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\pdfviewer\syncfusion.pdfviewerdemos.wpf_lib.csproj">
+      <Project>{fee14819-6863-461f-a932-9f05c102b972}</Project>
+      <Name>syncfusion.pdfviewerdemos.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\pdf\syncfusion.pdfdemos.wpf_lib.csproj">
+      <Project>{361be1c3-8476-4d11-82b4-990a2b446966}</Project>
+      <Name>syncfusion.pdfdemos.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\pivotgrid\syncfusion.pivotgriddemos.wpf_lib.csproj">
+      <Project>{75985713-2d9d-4d7b-8363-e9a2c581928d}</Project>
+      <Name>syncfusion.pivotgriddemos.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\presentation\syncfusion.presentationdemos.wpf_lib.csproj">
+      <Project>{f1dcb61f-749d-4eb1-9a49-d9996e83d441}</Project>
+      <Name>syncfusion.presentationdemos.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\propertygrid\syncfusion.propertygriddemos.wpf_lib.csproj">
+      <Project>{e6990d54-523a-4879-a87e-60a481d36a33}</Project>
+      <Name>syncfusion.propertygriddemos.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ribbon\syncfusion.ribbondemos.wpf_lib.csproj">
+      <Project>{72994eb6-17ab-4b2e-a4a1-dbd88d00bcab}</Project>
+      <Name>syncfusion.ribbondemos.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\richtextbox\syncfusion.richtextboxdemos.wpf_lib.csproj">
+      <Project>{b8873257-0901-477f-8aa1-4962c0b347fa}</Project>
+      <Name>syncfusion.richtextboxdemos.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\scheduler\syncfusion.schedulerdemos.wpf_lib.csproj">
+      <Project>{282da6e8-67c9-4cdc-9cbb-5f137fbf42a5}</Project>
+      <Name>syncfusion.schedulerdemos.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\showcase\audit showcase\syncfusion.auditshowcase.wpf_lib.csproj">
+      <Project>{5aab8983-353a-4be4-a75a-a01b8e145ee2}</Project>
+      <Name>syncfusion.auditshowcase.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\showcase\car dashboard\syncfusion.cardashboard.wpf_lib.csproj">
+      <Project>{6b156c1b-e805-4920-bf0a-08f22ba9548b}</Project>
+      <Name>syncfusion.cardashboard.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\showcase\diagram builder\syncfusion.diagrambuilder.wpf_lib.csproj">
+      <Project>{75a76b08-36c5-4856-90e2-078bb6c1fef8}</Project>
+      <Name>syncfusion.diagrambuilder.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\showcase\documenteditor\syncfusion.documenteditor.wpf_lib.csproj">
+      <Project>{53047430-8342-4fc3-98bb-67c570ce6ae0}</Project>
+      <Name>syncfusion.documenteditor.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\showcase\expense analysis tracker\syncfusion.expenseanalysis.wpf_lib.csproj">
+      <Project>{f26e5c28-e3b5-4176-86e9-aa0275e7c7c8}</Project>
+      <Name>syncfusion.expenseanalysis.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\showcase\floor planner\syncfusion.floorplanner.wpf_lib.csproj">
+      <Project>{022b1233-6fd1-4969-8b9e-0fc008181f93}</Project>
+      <Name>syncfusion.floorplanner.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\showcase\logical circuit designer\syncfusion.logicalcircuitdesigner.wpf_lib.csproj">
+      <Project>{750efe5b-0523-4aa5-b8e2-43d861820c1f}</Project>
+      <Name>syncfusion.logicalcircuitdesigner.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\showcase\network diagram\syncfusion.networkdiagram.wpf_lib.csproj">
+      <Project>{eb411a7f-1391-4b30-a6c9-a4c08f70db2d}</Project>
+      <Name>syncfusion.networkdiagram.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\showcase\organizational layout\syncfusion.organizationallayout.wpf_lib.csproj">
+      <Project>{f795cd5b-22da-4727-b184-31416706d75d}</Project>
+      <Name>syncfusion.organizationallayout.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\showcase\PowerPoint Viewer\syncfusion.powerpointviewer.wpf_lib.csproj">
+      <Project>{f45ea9f6-f1b9-423a-904b-fc77afd27bfd}</Project>
+      <Name>syncfusion.powerpointviewer.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\showcase\formula analysis\syncfusion.formulaanalysis.wpf_lib.csproj">
+      <Project>{ae848dd3-bda1-4d44-87c3-10da78215f54}</Project>
+      <Name>syncfusion.formulaanalysis.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\showcase\patient monitor\syncfusion.patientmonitor.wpf_lib.csproj">
+      <Project>{88b7545b-442d-47b5-bcff-ede09d2acaaf}</Project>
+      <Name>syncfusion.patientmonitor.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\showcase\sales analysis\syncfusion.salesanalysis.wpf_lib.csproj">
+      <Project>{410c4732-8380-464f-98e1-d08ccebc2d91}</Project>
+      <Name>syncfusion.salesanalysis.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\showcase\spreadsheet\syncfusion.spreadsheetdemo.wpf_lib.csproj">
+      <Project>{f52aad80-fa6e-49d3-963b-03078cd1125d}</Project>
+      <Name>syncfusion.spreadsheetdemo.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\showcase\stockanalysis\syncfusion.stockanalysisdemo.wpf_lib.csproj">
+      <Project>{9996ed3e-233d-4604-9428-f6e364559103}</Project>
+      <Name>syncfusion.stockanalysisdemo.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\showcase\succinctly series\syncfusion.succinctlyseries.wpf_lib.csproj">
+      <Project>{5b508a64-c5bc-441a-9353-26a60943f871}</Project>
+      <Name>syncfusion.succinctlyseries.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\showcase\unitconverter\syncfusion.unitconverter.wpf_lib.csproj">
+      <Project>{936f3000-58b2-4bfc-813e-869db56ea291}</Project>
+      <Name>syncfusion.unitconverter.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\showcase\weather analysis\syncfusion.weatheranalysis.wpf_lib.csproj">
+      <Project>{d99ea21f-9e11-4e9a-9bdc-a5149608e86d}</Project>
+      <Name>syncfusion.weatheranalysis.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\showcase\workflow editor\syncfusion.workfloweditor.wpf_lib.csproj">
+      <Project>{ebf91e68-9ad1-4ad7-a184-23aa1161cb5e}</Project>
+      <Name>syncfusion.workfloweditor.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\smithchart\syncfusion.smithchartdemos.wpf_lib.csproj">
+      <Project>{e7689b86-624b-4966-8c27-e1cbbc0097c0}</Project>
+      <Name>syncfusion.smithchartdemos.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\sparkline\syncfusion.sparklinedemos.wpf_lib.csproj">
+      <Project>{5686a66e-6eb8-4091-bb4d-b9e9eb3df785}</Project>
+      <Name>syncfusion.sparklinedemos.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\spellchecker\syncfusion.spellcheckerdemos.wpf_lib.csproj">
+      <Project>{6d6b517f-b289-4518-8553-ed44c1becdc6}</Project>
+      <Name>syncfusion.spellcheckerdemos.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\spreadsheet\syncfusion.spreadsheetdemos.wpf_lib.csproj">
+      <Project>{9b620e8d-ce6e-44e0-88c3-860f07d3ca68}</Project>
+      <Name>syncfusion.spreadsheetdemos.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\sunburstchart\syncfusion.sunburstchartdemos.wpf_lib.csproj">
+      <Project>{b23040dd-7dbd-430a-a4f7-f8bb6009bf08}</Project>
+      <Name>syncfusion.sunburstchartdemos.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\surfacechart\syncfusion.surfacechartdemos.wpf_lib.csproj">
+      <Project>{1520a9b3-5ada-4acc-9d6c-96dc0f89a945}</Project>
+      <Name>syncfusion.surfacechartdemos.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\syntaxeditor\syncfusion.syntaxeditordemos.wpf_lib.csproj">
+      <Project>{0e0c9d28-59d1-4d2c-b16c-fe90a837709e}</Project>
+      <Name>syncfusion.syntaxeditordemos.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\treegrid\syncfusion.treegriddemos.wpf_lib.csproj">
+      <Project>{cc89e538-b90b-4351-a346-febb5f8d13aa}</Project>
+      <Name>syncfusion.treegriddemos.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\treemap\syncfusion.treemapdemos.wpf_lib.csproj">
+      <Project>{a7559815-e041-41af-a34a-a21c53f8b4ce}</Project>
+      <Name>syncfusion.treemapdemos.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\treeview\syncfusion.treeviewdemos.wpf_lib.csproj">
+      <Project>{11764526-52bb-4a4f-8330-d3630bed2abb}</Project>
+      <Name>syncfusion.treeviewdemos.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\showcase\visualstudio\syncfusion.visualstudiodemo.wpf_lib.csproj">
+      <Project>{ca325af8-668e-450d-a533-ceb5e18ad074}</Project>
+      <Name>syncfusion.visualstudiodemo.wpf_lib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="wpf-splash-screen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="App.ico" />
+  </ItemGroup>
+  <Import Project="..\Common\demos.common.props" />
+  <Import Project="..\targets\MultiTargeting.targets" />
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
